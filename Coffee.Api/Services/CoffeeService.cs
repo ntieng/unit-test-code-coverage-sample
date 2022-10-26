@@ -38,7 +38,7 @@ namespace Coffee.Api.Services
         public int RandomNumber()
         {
             Random random = new Random();
-            return random.Next(1, 6);
+            return random.Next(2, 6);
         }
 
         public enum Temperature
